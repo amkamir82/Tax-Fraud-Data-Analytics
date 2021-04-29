@@ -1,0 +1,120 @@
+{
+    "nodes": [
+        {
+            "_type": "Person",
+            "attributes": [
+                {
+                    "attributeName": "Name",
+                    "attributeType": "string"
+                },
+                {
+                    "attributeName": "FamilyName",
+                    "attributeType": "string"
+                },
+                {
+                    "attributeName": "NationalCode",
+                    "attributeType": "long"
+                }
+            ]
+        },
+        {
+            "_type": "Document",
+            "attributes": [
+                {
+                    "attributeName": "DocumentNumber",
+                    "attributeType": "long"
+                },
+                {
+                    "attributeName": "Date",
+                    "attributeType": "date"
+                },
+                {
+                    "attributeName": "Person",
+                    "attributeType": "Person"
+                }
+            ]
+        },
+        {
+            "_type": "Car",
+            "attributes": [
+                {
+                    "attributeName": "VIN",
+                    "attributeType": "string"
+                },
+                {
+                    "attributeName": "Price",
+                    "attributeType": "long"
+                },
+                {
+                    "attributeName": "Date",
+                    "attributeType": "date"
+                },
+                {
+                    "attributeName": "Person",
+                    "attributeType": "Person"
+                }
+            ]
+        },
+        {
+            "_type": "House",
+            "attributes": [
+                {
+                    "attributeName": "Code",
+                    "attributeType": "string"
+                },
+                {
+                    "attributeName": "Price",
+                    "attributeType": "long"
+                },
+                {
+                    "attributeName": "Date",
+                    "attributeType": "date"
+                },
+                {
+                    "attributeName": "Person",
+                    "attributeType": "Person"
+                }
+            ]
+        },
+        {
+            "_type": "Relations",
+            "attributes": [
+                {
+                    "attributeName": "Main",
+                    "attributeType": "Person"
+                },
+                {
+                    "attributeName": "Father",
+                    "attributeType": "Person"
+                },
+                {
+                    "attributeName": "Mother",
+                    "attributeType": "Person"
+                }
+            ]
+        }
+    ],
+    "links": [
+        {
+            "_type": "Transaction",
+            "fromNode": "Account",
+            "toNode": "Account",
+            "attributes": [
+                {
+                    "attributeName": "Date",
+                    "attributeType": "date"
+                },
+                {
+                    "attributeName": "Amount",
+                    "attributeType": "integer"
+                }
+            ]
+        },
+        {
+            "_type": "OwnerShip",
+            "fromNode": "Person",
+            "toNode": "Account",
+            "attributes": []
+        }
+    ]
+}

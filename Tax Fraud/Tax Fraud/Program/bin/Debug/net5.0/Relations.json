@@ -1,0 +1,62 @@
+{
+    "nodes": [
+        {
+            "_type": "MappingSourcePerson",
+	    "dataModel": "Person",
+            "attributeMapping": [
+                {
+                    "attributeName": "NationalCode",
+                    "columnName": "کدملی",
+		    "isPrimaryKey": "true"
+                },
+ 		{
+                    "attributeName": "Name",
+                    "columnName": "نام",
+		    "isPrimaryKey": "false"
+                },
+ 		{
+                    "attributeName": "FamilyName",
+                    "columnName": "نام خانوادگی",
+		    "isPrimaryKey": "false"
+                }
+            ]
+        },
+        {
+            "_target": "MappingDestinationPerson",
+            "attributeMapping": [
+                {
+                    "attributeName": "NationalCode",
+                    "columnName": "کدملی",
+		    "isPrimaryKey": "true"
+                },
+ 		{
+                    "attributeName": "Name",
+                    "columnName": "نام",
+		    "isPrimaryKey": "false"
+                },
+ 		{
+                    "attributeName": "FamilyName",
+                    "columnName": "نام خانوادگی",
+		    "isPrimaryKey": "false"
+                }
+            ]
+        }
+    ],
+    "links": [
+        {
+            "_type": "MappingPersonRelation",
+            "fromNode": "Person",
+            "toNode": "Pesron",
+            "attributeMapping": [
+                {
+                    "attributeName": "SourcePerson",
+		    "indexName": "Person"
+                },
+                {
+                    "attributeName": "DestinationPerson",
+                    "indexName": "Relations"
+                }
+            ]
+        }
+    ]
+}

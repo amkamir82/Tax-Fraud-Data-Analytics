@@ -1,0 +1,9 @@
+C:\Users\Amkam\Desktop\Tax Fraud\Tax Fraud\Model\bin\Debug\netcoreapp3.1\Model.deps.json
+C:\Users\Amkam\Desktop\Tax Fraud\Tax Fraud\Model\bin\Debug\netcoreapp3.1\Model.dll
+C:\Users\Amkam\Desktop\Tax Fraud\Tax Fraud\Model\bin\Debug\netcoreapp3.1\Model.pdb
+C:\Users\Amkam\Desktop\Tax Fraud\Tax Fraud\Model\obj\Debug\netcoreapp3.1\Model.csprojAssemblyReference.cache
+C:\Users\Amkam\Desktop\Tax Fraud\Tax Fraud\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfoInputs.cache
+C:\Users\Amkam\Desktop\Tax Fraud\Tax Fraud\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfo.cs
+C:\Users\Amkam\Desktop\Tax Fraud\Tax Fraud\Model\obj\Debug\netcoreapp3.1\Model.csproj.CoreCompileInputs.cache
+C:\Users\Amkam\Desktop\Tax Fraud\Tax Fraud\Model\obj\Debug\netcoreapp3.1\Model.dll
+C:\Users\Amkam\Desktop\Tax Fraud\Tax Fraud\Model\obj\Debug\netcoreapp3.1\Model.pdb

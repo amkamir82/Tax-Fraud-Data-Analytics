@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="ExcelPackage" Version="1.0.0" />
+      <PackageReference Include="LinqToExcel" Version="2.0.0-PRERELEASE-2" />
+      <PackageReference Include="NEST" Version="7.12.1" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+      <PackageReference Include="OfficeOpenXml.Core.ExcelPackage" Version="1.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ConfigReader\ConfigReader.csproj" />
+      <ProjectReference Include="..\Entity\Entity.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Nodes.cs" />
+    </ItemGroup>
+
+</Project>

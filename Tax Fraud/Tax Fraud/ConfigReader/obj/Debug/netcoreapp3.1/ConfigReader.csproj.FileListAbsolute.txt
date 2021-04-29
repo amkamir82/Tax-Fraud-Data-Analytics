@@ -1,0 +1,9 @@
+C:\Users\Amkam\Desktop\Tax Fraud\Tax Fraud\ConfigReader\bin\Debug\netcoreapp3.1\ConfigReader.deps.json
+C:\Users\Amkam\Desktop\Tax Fraud\Tax Fraud\ConfigReader\bin\Debug\netcoreapp3.1\ConfigReader.dll
+C:\Users\Amkam\Desktop\Tax Fraud\Tax Fraud\ConfigReader\bin\Debug\netcoreapp3.1\ConfigReader.pdb
+C:\Users\Amkam\Desktop\Tax Fraud\Tax Fraud\ConfigReader\obj\Debug\netcoreapp3.1\ConfigReader.csprojAssemblyReference.cache
+C:\Users\Amkam\Desktop\Tax Fraud\Tax Fraud\ConfigReader\obj\Debug\netcoreapp3.1\ConfigReader.AssemblyInfoInputs.cache
+C:\Users\Amkam\Desktop\Tax Fraud\Tax Fraud\ConfigReader\obj\Debug\netcoreapp3.1\ConfigReader.AssemblyInfo.cs
+C:\Users\Amkam\Desktop\Tax Fraud\Tax Fraud\ConfigReader\obj\Debug\netcoreapp3.1\ConfigReader.csproj.CoreCompileInputs.cache
+C:\Users\Amkam\Desktop\Tax Fraud\Tax Fraud\ConfigReader\obj\Debug\netcoreapp3.1\ConfigReader.dll
+C:\Users\Amkam\Desktop\Tax Fraud\Tax Fraud\ConfigReader\obj\Debug\netcoreapp3.1\ConfigReader.pdb

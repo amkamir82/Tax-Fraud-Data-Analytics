@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qfgWaWNSZF90EhhpCK3ToGajPwR3xAdskTN7Eifao0ZPWbgxjLh5+Mx/n2R05uVdIV/vKCs49NKIGdRm4zLoxA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Amkam\\Desktop\\Tax Fraud\\Tax Fraud\\ConfigReader\\ConfigReader.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Amkam\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
