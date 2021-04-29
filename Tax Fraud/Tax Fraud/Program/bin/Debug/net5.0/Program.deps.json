@@ -12,6 +12,7 @@
           "Entity": "1.0.0",
           "ExcelPackage": "1.0.0",
           "LinqToExcel": "2.0.0-PRERELEASE-2",
+          "Map": "1.0.0",
           "NEST": "7.12.1",
           "Newtonsoft.Json": "13.0.1",
           "OfficeOpenXml.Core.ExcelPackage": "1.0.0"
@@ -772,6 +773,14 @@
         "runtime": {
           "Entity.dll": {}
         }
+      },
+      "Map/1.0.0": {
+        "dependencies": {
+          "Entity": "1.0.0"
+        },
+        "runtime": {
+          "Map.dll": {}
+        }
       }
     }
   },
@@ -1284,6 +1293,11 @@
       "sha512": ""
     },
     "Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Map/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

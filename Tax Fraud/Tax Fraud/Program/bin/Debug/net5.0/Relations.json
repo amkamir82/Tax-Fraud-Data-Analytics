@@ -1,43 +1,44 @@
 {
     "nodes": [
         {
-            "_type": "MappingSourcePerson",
-	    "dataModel": "Person",
+            "_type": "SourcePerson",
+	    "_dataModel": "Person",
             "attributeMapping": [
                 {
                     "attributeName": "NationalCode",
                     "columnName": "کدملی",
-		    "isPrimaryKey": "true"
+		    "isPrimaryKey": "True"
                 },
  		{
                     "attributeName": "Name",
                     "columnName": "نام",
-		    "isPrimaryKey": "false"
+		    "isPrimaryKey": "False"
                 },
  		{
                     "attributeName": "FamilyName",
                     "columnName": "نام خانوادگی",
-		    "isPrimaryKey": "false"
+		    "isPrimaryKey": "False"
                 }
             ]
         },
         {
-            "_target": "MappingDestinationPerson",
+            "_target": "DestinationPerson",
+	    "_dataModel": "Person",
             "attributeMapping": [
                 {
                     "attributeName": "NationalCode",
                     "columnName": "کدملی",
-		    "isPrimaryKey": "true"
+		    "isPrimaryKey": "True"
                 },
  		{
                     "attributeName": "Name",
                     "columnName": "نام",
-		    "isPrimaryKey": "false"
+		    "isPrimaryKey": "False"
                 },
  		{
                     "attributeName": "FamilyName",
                     "columnName": "نام خانوادگی",
-		    "isPrimaryKey": "false"
+		    "isPrimaryKey": "False"
                 }
             ]
         }

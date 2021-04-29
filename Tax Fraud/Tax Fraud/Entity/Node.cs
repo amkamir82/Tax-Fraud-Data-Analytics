@@ -32,11 +32,17 @@ namespace Entity
             get { return _attributes; }
         }
 
-        public string PrimaryKey
+        public static Node GetNodeByName(string name)
         {
-            get { return _primaryKey; }
+            foreach (var node in Nodes)
+            {
+                if (node._modelName == name)
+                {
+                    return node;
+                }
+            }
 
-            set { _primaryKey = value; }
+            return null;
         }
     }
 }

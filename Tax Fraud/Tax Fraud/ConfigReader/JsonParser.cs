@@ -10,7 +10,7 @@ namespace ConfigReader
             return jToken.First.First.Children();
         }
 
-        public JEnumerable<JToken> GetNodeChildes(JToken jToken)
+        public JEnumerable<JToken> GetNodeChildren(JToken jToken)
         {
             return jToken.Children();
         }
@@ -20,7 +20,7 @@ namespace ConfigReader
             return jToken.Last.First.Children();
         }
 
-        public JEnumerable<JToken> GetLinkChildes(JToken jToken)
+        public JEnumerable<JToken> GetLinkChildren(JToken jToken)
         {
             return jToken.Children();
         }

@@ -53,11 +53,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Amkam\\Desktop\\Tax Fraud\\Tax Fraud\\ConfigReader\\ConfigReader.csproj",
+      "projectUniqueName": "C:\\Users\\Amkam\\Desktop\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\ConfigReader\\ConfigReader.csproj",
       "projectName": "ConfigReader",
-      "projectPath": "C:\\Users\\Amkam\\Desktop\\Tax Fraud\\Tax Fraud\\ConfigReader\\ConfigReader.csproj",
+      "projectPath": "C:\\Users\\Amkam\\Desktop\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\ConfigReader\\ConfigReader.csproj",
       "packagesPath": "C:\\Users\\Amkam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Amkam\\Desktop\\Tax Fraud\\Tax Fraud\\ConfigReader\\obj\\",
+      "outputPath": "C:\\Users\\Amkam\\Desktop\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\ConfigReader\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Amkam\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -26,3 +26,33 @@ C:\Users\Amkam\Desktop\Tax Fraud\Tax Fraud\Program\bin\Debug\net5.0\ConfigReader
 C:\Users\Amkam\Desktop\Tax Fraud\Tax Fraud\Program\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\Amkam\Desktop\Tax Fraud\Tax Fraud\Program\bin\Debug\net5.0\Entity.dll
 C:\Users\Amkam\Desktop\Tax Fraud\Tax Fraud\Program\bin\Debug\net5.0\Entity.pdb
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\bin\Debug\net5.0\Program.exe
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\bin\Debug\net5.0\Program.deps.json
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\bin\Debug\net5.0\Program.runtimeconfig.json
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\bin\Debug\net5.0\Program.runtimeconfig.dev.json
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\bin\Debug\net5.0\Program.dll
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\bin\Debug\net5.0\ref\Program.dll
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\bin\Debug\net5.0\Program.pdb
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\bin\Debug\net5.0\Elasticsearch.Net.dll
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\bin\Debug\net5.0\Microsoft.Office.Interop.Excel.dll
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\bin\Debug\net5.0\LinqToExcel.dll
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\bin\Debug\net5.0\Nest.dll
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\bin\Debug\net5.0\OfficeOpenXml.Core.ExcelPackage.dll
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\bin\Debug\net5.0\System.IO.Packaging.dll
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\bin\Debug\net5.0\ConfigReader.dll
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\bin\Debug\net5.0\Entity.dll
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\bin\Debug\net5.0\ConfigReader.pdb
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\bin\Debug\net5.0\Entity.pdb
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\obj\Debug\net5.0\Program.csprojAssemblyReference.cache
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\obj\Debug\net5.0\Program.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\obj\Debug\net5.0\Program.AssemblyInfoInputs.cache
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\obj\Debug\net5.0\Program.AssemblyInfo.cs
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\obj\Debug\net5.0\Program.csproj.CoreCompileInputs.cache
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\obj\Debug\net5.0\Program.csproj.CopyComplete
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\obj\Debug\net5.0\Program.dll
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\obj\Debug\net5.0\ref\Program.dll
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\obj\Debug\net5.0\Program.pdb
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\obj\Debug\net5.0\Program.genruntimeconfig.cache
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\bin\Debug\net5.0\Map.dll
+C:\Users\Amkam\Desktop\Tax Fraud\Tax-Fraud-Data-Analytics\Tax Fraud\Tax Fraud\Program\bin\Debug\net5.0\Map.pdb
