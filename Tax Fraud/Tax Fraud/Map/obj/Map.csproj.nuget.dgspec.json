@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Amkam\\Desktop\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Map\\Map.csproj": {}
+    "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Map\\Map.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Amkam\\Desktop\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Entity\\Entity.csproj": {
+    "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Amkam\\Desktop\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\Amkam\\Desktop\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Entity\\Entity.csproj",
+        "projectPath": "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\Amkam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Amkam\\Desktop\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Entity\\obj\\",
+        "outputPath": "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amkam\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\Amkam\\Desktop\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Map\\Map.csproj": {
+    "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Map\\Map.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Amkam\\Desktop\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Map\\Map.csproj",
+        "projectUniqueName": "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Map\\Map.csproj",
         "projectName": "Map",
-        "projectPath": "C:\\Users\\Amkam\\Desktop\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Map\\Map.csproj",
+        "projectPath": "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Map\\Map.csproj",
         "packagesPath": "C:\\Users\\Amkam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Amkam\\Desktop\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Map\\obj\\",
+        "outputPath": "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Map\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amkam\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Amkam\\Desktop\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\Amkam\\Desktop\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Entity\\Entity.csproj"
+              "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Entity\\Entity.csproj"
               }
             }
           }

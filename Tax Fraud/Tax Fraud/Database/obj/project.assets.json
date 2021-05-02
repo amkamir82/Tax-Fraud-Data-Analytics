@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Amkam\\Desktop\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Database\\Database.csproj",
+      "projectUniqueName": "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Database\\Database.csproj",
       "projectName": "Database",
-      "projectPath": "C:\\Users\\Amkam\\Desktop\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Database\\Database.csproj",
+      "projectPath": "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Database\\Database.csproj",
       "packagesPath": "C:\\Users\\Amkam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Amkam\\Desktop\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Database\\obj\\",
+      "outputPath": "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Database\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Amkam\\AppData\\Roaming\\NuGet\\NuGet.Config",
