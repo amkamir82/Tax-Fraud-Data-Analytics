@@ -14,7 +14,7 @@ namespace Database
 
         public void CreateInitialClient()
         {
-            var uri = new Uri("127.0.0.1:9200");
+            var uri = new Uri("http://127.0.0.1:9200");
             var connectionSettings = new ConnectionSettings(uri);
             _client = new ElasticClient(connectionSettings);
         }

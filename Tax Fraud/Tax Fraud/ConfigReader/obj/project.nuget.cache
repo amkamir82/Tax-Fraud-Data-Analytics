@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "oK7vxNFz28FWDaWINivZ8/mDDwPLtmtrFj7lK534DQdYkSd5kTrU7e9byFEwMwzIdtffbbUBh5NnvSAcp0J7Jg==",
+  "dgSpecHash": "9CYgdd3nclzu4v1c1Kl6mbhSG+/5g/EMItNN2i3WbRw3zrEvpJ6dQLsYdnKsyrJaeFhDhq9rA3joziaJUl4hPg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\ConfigReader\\ConfigReader.csproj",
+  "projectFilePath": "C:\\Users\\p.mohammadian\\source\\repos\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\ConfigReader\\ConfigReader.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Amkam\\.nuget\\packages\\elasticsearch.net\\7.12.1\\elasticsearch.net.7.12.1.nupkg.sha512",
-    "C:\\Users\\Amkam\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
-    "C:\\Users\\Amkam\\.nuget\\packages\\nest\\7.12.1\\nest.7.12.1.nupkg.sha512",
-    "C:\\Users\\Amkam\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\Amkam\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
-    "C:\\Users\\Amkam\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"
+    "C:\\Users\\p.mohammadian\\.nuget\\packages\\elasticsearch.net\\7.12.1\\elasticsearch.net.7.12.1.nupkg.sha512",
+    "C:\\Users\\p.mohammadian\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
+    "C:\\Users\\p.mohammadian\\.nuget\\packages\\nest\\7.12.1\\nest.7.12.1.nupkg.sha512",
+    "C:\\Users\\p.mohammadian\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\p.mohammadian\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\p.mohammadian\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
