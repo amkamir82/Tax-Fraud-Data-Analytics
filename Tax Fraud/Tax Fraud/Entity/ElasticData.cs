@@ -4,9 +4,8 @@ namespace Entity
 {
     public class ElasticData
     {
-        private static List<Node> Models = new List<Node>();
         static Dictionary<string, List<ElasticData>> allData = new Dictionary<string, List<ElasticData>>();
-        private Dictionary<string, string> _datInformation;
+        private Dictionary<string, string> _dataInformation;
 
         public ElasticData(string type)
         {
@@ -14,11 +13,11 @@ namespace Entity
 
             //now we will get the attributes of model
 
-            _datInformation = new Dictionary<string, string>();
+            _dataInformation = new Dictionary<string, string>();
             foreach (var attributesKey in model.Attributes.Keys)
             {
                 //ToDo
-                _datInformation.Add(attributesKey, "dataInformation");
+                _dataInformation.Add(attributesKey, "dataInformation");
             }
 
             if (allData[type] == null)

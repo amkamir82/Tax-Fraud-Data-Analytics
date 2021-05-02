@@ -5,6 +5,8 @@ using ConfigReader;
 using Newtonsoft.Json.Linq;
 using Entity;
 using Map;
+using Database;
+using Nest;
 
 namespace Program
 {
@@ -12,8 +14,16 @@ namespace Program
     {
         static void Main(string[] args)
         {
+            var uri = new Uri("http://localhost:9200");
+            var connectionSettings = new ConnectionSettings(uri);
+            var ok = new ElasticClient(connectionSettings);
             RunModelsAndLinks();
             RunRelations();
+            NestClientFactory.GetInstance().CreateInitialClient();
+
+            var query = new MatchAllQuery();
+
+            NestDataHandler.GetAllDocuments(query, "documents1");
         }
 
         static void RunModelsAndLinks()

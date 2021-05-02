@@ -15,6 +15,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\ConfigReader\ConfigReader.csproj" />
+      <ProjectReference Include="..\Database\Database.csproj" />
       <ProjectReference Include="..\Entity\Entity.csproj" />
       <ProjectReference Include="..\Map\Map.csproj" />
     </ItemGroup>

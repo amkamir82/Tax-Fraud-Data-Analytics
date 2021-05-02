@@ -9,6 +9,7 @@
       "Program/1.0.0": {
         "dependencies": {
           "ConfigReader": "1.0.0",
+          "Database": "1.0.0",
           "Entity": "1.0.0",
           "ExcelPackage": "1.0.0",
           "LinqToExcel": "2.0.0-PRERELEASE-2",
@@ -763,20 +764,33 @@
       },
       "ConfigReader/1.0.0": {
         "dependencies": {
+          "NEST": "7.12.1",
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
           "ConfigReader.dll": {}
         }
       },
+      "Database/1.0.0": {
+        "dependencies": {
+          "NEST": "7.12.1"
+        },
+        "runtime": {
+          "Database.dll": {}
+        }
+      },
       "Entity/1.0.0": {
+        "dependencies": {
+          "NEST": "7.12.1"
+        },
         "runtime": {
           "Entity.dll": {}
         }
       },
       "Map/1.0.0": {
         "dependencies": {
-          "Entity": "1.0.0"
+          "Entity": "1.0.0",
+          "NEST": "7.12.1"
         },
         "runtime": {
           "Map.dll": {}
@@ -1288,6 +1302,11 @@
       "hashPath": "system.xml.xpath.xdocument.4.0.1.nupkg.sha512"
     },
     "ConfigReader/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Database/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

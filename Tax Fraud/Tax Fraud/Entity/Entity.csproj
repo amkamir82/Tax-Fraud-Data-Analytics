@@ -9,4 +9,8 @@
       <Compile Remove="Class1.cs" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="NEST" Version="7.12.1" />
+    </ItemGroup>
+
 </Project>

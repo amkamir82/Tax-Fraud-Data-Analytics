@@ -5,7 +5,7 @@ namespace Entity
 {
     public class Node
     {
-        static List<Node> Nodes { get; } = new List<Node>();
+        public static List<Node> Nodes { get; } = new List<Node>();
         private string _modelName;
         private Dictionary<string, string> _attributes;
         private string _primaryKey;
