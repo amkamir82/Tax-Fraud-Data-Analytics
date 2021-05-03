@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Database\\Database.csproj": {}
+    "C:\\Users\\p.mohammadian\\source\\repos\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Database\\Database.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Database\\Database.csproj": {
+    "C:\\Users\\p.mohammadian\\source\\repos\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Database\\Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Database\\Database.csproj",
+        "projectUniqueName": "C:\\Users\\p.mohammadian\\source\\repos\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Database\\Database.csproj",
         "projectName": "Database",
-        "projectPath": "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Database\\Database.csproj",
-        "packagesPath": "C:\\Users\\Amkam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Database\\obj\\",
+        "projectPath": "C:\\Users\\p.mohammadian\\source\\repos\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Database\\Database.csproj",
+        "packagesPath": "C:\\Users\\p.mohammadian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\p.mohammadian\\source\\repos\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Database\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Amkam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\p.mohammadian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
