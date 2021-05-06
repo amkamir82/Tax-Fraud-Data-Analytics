@@ -2,10 +2,8 @@
 
 namespace Database
 {
-    public class ClientFactoey
+    public class DatabaseController
     {
-        // public DatabaseController()
-        // {
-        // }
+        
     }
 }

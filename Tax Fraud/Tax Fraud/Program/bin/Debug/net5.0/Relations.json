@@ -6,6 +6,27 @@
             "attributeMapping": [
                 {
                     "attributeName": "NationalCode",
+                    "fieldName": "کدملی",
+		    "isPrimaryKey": "True"
+                },
+ 		{
+                    "attributeName": "Name",
+                    "columnName": "نام",
+		    "isPrimaryKey": "False"
+                },
+ 		{
+                    "attributeName": "FamilyName",
+                    "columnName": "نام خانوادگی",
+		    "isPrimaryKey": "False"
+                }
+            ]
+        },
+        {
+            "_type": "DestinationPerson",
+	    "_dataModel": "Person",
+            "attributeMapping": [
+                {
+                    "attributeName": "NationalCode",
                     "columnName": "کدملی",
 		    "isPrimaryKey": "True"
                 },
@@ -22,7 +43,28 @@
             ]
         },
         {
-            "_target": "DestinationPerson",
+            "_type": "SourceDocument",
+	    "_dataModel": "Document",
+            "attributeMapping": [
+                {
+                    "attributeName": "NationalCode",
+                    "columnName": "کدملی",
+		    "isPrimaryKey": "True"
+                },
+ 		{
+                    "attributeName": "Name",
+                    "columnName": "نام",
+		    "isPrimaryKey": "False"
+                },
+ 		{
+                    "attributeName": "FamilyName",
+                    "columnName": "نام خانوادگی",
+		    "isPrimaryKey": "False"
+                }
+            ]
+        },
+        {
+            "_type": "DestinationPerson",
 	    "_dataModel": "Person",
             "attributeMapping": [
                 {

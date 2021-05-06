@@ -54,6 +54,19 @@
         "runtime": {
           "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
         }
+      },
+      "Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "NEST": "7.12.1"
+        },
+        "compile": {
+          "bin/placeholder/Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entity.dll": {}
+        }
       }
     }
   },
@@ -226,31 +239,33 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Entity/1.0.0": {
+      "type": "project",
+      "path": "../Entity/Entity.csproj",
+      "msbuildProject": "../Entity/Entity.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Entity >= 1.0.0",
       "NEST >= 7.12.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\p.mohammadian\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Amkam\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\p.mohammadian\\source\\repos\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Database\\Database.csproj",
+      "projectUniqueName": "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Database\\Database.csproj",
       "projectName": "Database",
-      "projectPath": "C:\\Users\\p.mohammadian\\source\\repos\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Database\\Database.csproj",
-      "packagesPath": "C:\\Users\\p.mohammadian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\p.mohammadian\\source\\repos\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Database\\obj\\",
+      "projectPath": "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Database\\Database.csproj",
+      "packagesPath": "C:\\Users\\Amkam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Database\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\p.mohammadian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Amkam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -263,7 +278,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Entity\\Entity.csproj": {
+              "projectPath": "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Entity\\Entity.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -296,7 +315,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

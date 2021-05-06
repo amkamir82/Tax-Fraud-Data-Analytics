@@ -4,28 +4,29 @@ namespace Entity
 {
     public class ElasticData
     {
-        static Dictionary<string, List<ElasticData>> allData = new Dictionary<string, List<ElasticData>>();
-        private Dictionary<string, string> _dataInformation;
+        static Dictionary<string, List<Dictionary<string, object>>> allData =
+            new Dictionary<string, List<Dictionary<string, object>>>();
 
-        public ElasticData(string type)
+        public ElasticData(string type, Dictionary<string, object> data)
         {
-            var model = Node.GetNodeByName(type);
-
-            //now we will get the attributes of model
-
-            _dataInformation = new Dictionary<string, string>();
-            foreach (var attributesKey in model.Attributes.Keys)
+            if (!allData.ContainsKey(type))
             {
-                //ToDo
-                _dataInformation.Add(attributesKey, "dataInformation");
+                allData.Add(type, new List<Dictionary<string, object>>());
             }
 
-            if (allData[type] == null)
+            allData[type].Add(data);
+        }
+
+
+        public static List<string> GetModelPrimaryKeys(string model, string primaryKey)
+        {
+            List<string> codes = new List<string>();
+            foreach (var dictionary in allData[model])
             {
-                allData[type] = new List<ElasticData>();
+                codes.Add(dictionary[primaryKey].ToString());
             }
 
-            allData[type].Add(this);
+            return codes;
         }
     }
 }

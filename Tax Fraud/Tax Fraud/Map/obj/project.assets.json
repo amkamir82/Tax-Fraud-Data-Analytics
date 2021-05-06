@@ -253,23 +253,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\p.mohammadian\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Amkam\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\p.mohammadian\\source\\repos\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Map\\Map.csproj",
+      "projectUniqueName": "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Map\\Map.csproj",
       "projectName": "Map",
-      "projectPath": "C:\\Users\\p.mohammadian\\source\\repos\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Map\\Map.csproj",
-      "packagesPath": "C:\\Users\\p.mohammadian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\p.mohammadian\\source\\repos\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Map\\obj\\",
+      "projectPath": "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Map\\Map.csproj",
+      "packagesPath": "C:\\Users\\Amkam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Map\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\p.mohammadian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Amkam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -283,8 +279,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\p.mohammadian\\source\\repos\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Entity\\Entity.csproj": {
-              "projectPath": "C:\\Users\\p.mohammadian\\source\\repos\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Entity\\Entity.csproj"
+            "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Entity\\Entity.csproj": {
+              "projectPath": "C:\\Users\\Amkam\\Desktop\\Work\\Tax Fraud\\Tax-Fraud-Data-Analytics\\Tax Fraud\\Tax Fraud\\Entity\\Entity.csproj"
             }
           }
         }
@@ -319,7 +315,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

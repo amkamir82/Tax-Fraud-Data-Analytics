@@ -773,6 +773,7 @@
       },
       "Database/1.0.0": {
         "dependencies": {
+          "Entity": "1.0.0",
           "NEST": "7.12.1"
         },
         "runtime": {

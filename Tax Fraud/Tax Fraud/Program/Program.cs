@@ -14,17 +14,70 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            var uri = new Uri("http://localhost:9200");
-            var connectionSettings = new ConnectionSettings(uri);
-            var ok = new ElasticClient(connectionSettings);
             RunModelsAndLinks();
             RunRelations();
             NestClientFactory.GetInstance().CreateInitialClient();
 
-            var query = new MatchAllQuery();
 
-            NestDataHandler.GetAllDocuments(query, "documents1");
+            var documentsResult =
+                NestDataHandler.GetResultsFromElasticByQuery(new NestQueryHandler().GetMatchAllElasticQuery(),
+                    "documents1");
+
+            foreach (var dictionary in documentsResult)
+            {
+                new ElasticData("Document", dictionary);
+            }
+
+
+            var relationsResult =
+                NestDataHandler.GetResultsFromElasticByQuery(
+                    new NestQueryHandler().GetTermsElasticQuery("کدملی", "Document", "کد ملی"),
+                    "people-relations");
+
+            foreach (var dictionary in relationsResult)
+            {
+                new ElasticData("PeopleRelation", dictionary);
+            }
+
+            var fathersCarsResult =
+                NestDataHandler.GetResultsFromElasticByQuery(
+                    new NestQueryHandler().GetTermsElasticQuery("کدملی مالک", "PeopleRelation", "کدملی پدر"), "cars1");
+
+            var mothersCarsResult =
+                NestDataHandler.GetResultsFromElasticByQuery(
+                    new NestQueryHandler().GetTermsElasticQuery("کدملی مالک", "PeopleRelation", "کدملی مادر"), "cars1");
+
+            foreach (var dictionary in fathersCarsResult)
+            {
+                new ElasticData("Car", dictionary);
+            }
+
+            foreach (var dictionary in mothersCarsResult)
+            {
+                new ElasticData("Car", dictionary);
+            }
+
+            var fathersHousesResult =
+                NestDataHandler.GetResultsFromElasticByQuery(
+                    new NestQueryHandler().GetTermsElasticQuery("کدملی مالک", "PeopleRelation", "کدملی پدر"),
+                    "houses1");
+
+            var mothersHousesResult =
+                NestDataHandler.GetResultsFromElasticByQuery(
+                    new NestQueryHandler().GetTermsElasticQuery("کدملی مالک", "PeopleRelation", "کدملی مادر"),
+                    "houses1");
+
+            foreach (var dictionary in fathersHousesResult)
+            {
+                new ElasticData("Car", dictionary);
+            }
+
+            foreach (var dictionary in mothersCarsResult)
+            {
+                new ElasticData("Car", dictionary);
+            }
         }
+
 
         static void RunModelsAndLinks()
         {
