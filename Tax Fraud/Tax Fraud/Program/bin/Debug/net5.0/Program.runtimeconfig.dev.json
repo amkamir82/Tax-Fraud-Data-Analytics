@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\Amkam\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Amkam\\.nuget\\packages"
-    ]
-  }
-}
