@@ -8,7 +8,7 @@ namespace Entity
         public List<ElasticData> Nodes { get; set; }
         public string Id { get; set; }
 
-        public Pattern(List<ElasticData> nodes, string id)
+        public Pattern(List<ElasticData> nodes)
         {
             Nodes = nodes;
             Id = Guid.NewGuid().ToString();

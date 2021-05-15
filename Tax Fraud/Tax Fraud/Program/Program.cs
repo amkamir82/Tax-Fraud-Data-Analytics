@@ -12,6 +12,8 @@ namespace Program
 {
     class Program
     {
+        public static PatternGenerator PatternGenerator = new PatternGenerator();
+
         static void Main(string[] args)
         {
             RunModelsAndLinks();
@@ -24,17 +26,18 @@ namespace Program
             GetCarsResults();
             GetHousesResults();
 
-            var finalResult = ElasticData.GetResultObjects();
+            PatternGenerator.Process("Car");
+            PatternGenerator.Process("House");
         }
+
 
         static void GetDocumentsResults()
         {
             var documentsResult =
                 NestDataHandler.GetResultsFromElasticByQuery(new NestQueryHandler().GetMatchAllElasticQuery(),
                     "documents1");
-            
+
             UpdateElasticData(documentsResult, "Document");
-            ElasticData.UpdateDocumentsResults("Document");
         }
 
         static void GetPeopleRelationsResults()
@@ -46,23 +49,22 @@ namespace Program
 
             // IEnumerable<>
             UpdateElasticData(relationsResult, "PeopleRelation");
-            ElasticData.UpdateRelationsResults("PeopleRelation");
         }
 
         static void GetCarsResults()
         {
             var fathersCarsResult =
                 NestDataHandler.GetResultsFromElasticByQuery(
-                    new NestQueryHandler().GetTermsElasticQuery("کدملی مالک", "PeopleRelation", "کدملی عضو خانواده"), "cars1");
+                    new NestQueryHandler().GetTermsElasticQuery("کدملی مالک", "PeopleRelation", "کدملی عضو خانواده"),
+                    "cars1");
 
             var mothersCarsResult =
                 NestDataHandler.GetResultsFromElasticByQuery(
-                    new NestQueryHandler().GetTermsElasticQuery("کدملی مالک", "PeopleRelation", "کدملی عضو خانواده"), "cars1");
+                    new NestQueryHandler().GetTermsElasticQuery("کدملی مالک", "PeopleRelation", "کدملی عضو خانواده"),
+                    "cars1");
 
             UpdateElasticData(fathersCarsResult, "Car");
             UpdateElasticData(mothersCarsResult, "Car");
-
-            ElasticData.UpdateCarsAndHousesResults("Car");
         }
 
         static void GetHousesResults()
@@ -79,8 +81,6 @@ namespace Program
 
             UpdateElasticData(fathersHousesResult, "House");
             UpdateElasticData(mothersHousesResult, "House");
-
-            ElasticData.UpdateCarsAndHousesResults("House");
         }
 
         static void UpdateElasticData(IEnumerable<Dictionary<string, object>> data, string modelName)
@@ -186,7 +186,7 @@ namespace Program
             InitialiseMappingLinks(parser, mappingLinks);
         }
 
-        static void InitialiseMappingLinks(JsonParser parser, List<JToken> nodes)
+        public static void InitialiseMappingLinks(JsonParser parser, List<JToken> nodes)
         {
             foreach (var jToken in nodes)
             {
