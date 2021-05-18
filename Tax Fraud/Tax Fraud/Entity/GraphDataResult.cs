@@ -16,6 +16,6 @@ namespace Entity
             this.resultObject.Add(elasticData);
         }
         
-        // public static void 
+        
     }
 }
