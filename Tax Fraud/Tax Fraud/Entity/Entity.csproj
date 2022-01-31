@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>Model</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="Class1.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="NEST" Version="7.12.1" />
+    </ItemGroup>
+
+</Project>

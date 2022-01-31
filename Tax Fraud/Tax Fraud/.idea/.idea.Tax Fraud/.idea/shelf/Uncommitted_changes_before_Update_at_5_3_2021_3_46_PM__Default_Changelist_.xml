@@ -1,0 +1,14 @@
+<changelist name="Uncommitted_changes_before_Update_at_5_3_2021_3_46_PM_[Default_Changelist]" date="1620040572346" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.Tax Fraud/.idea/shelf/Uncommitted_changes_before_Update_at_5_3_2021_3_46_PM_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 5/3/2021 3:46 PM [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="Entity/obj/Debug/netcoreapp3.1/Entity.csprojAssemblyReference.cache" />
+    <option name="AFTER_PATH" value="Entity/obj/Debug/netcoreapp3.1/Entity.csprojAssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Tax Fraud/.idea/shelf/Uncommitted_changes_before_Update_at_5_3_2021_3_46_PM_[Default_Changelist]/Entity.csprojAssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Program/obj/Debug/net5.0/Program.csprojAssemblyReference.cache" />
+    <option name="AFTER_PATH" value="Program/obj/Debug/net5.0/Program.csprojAssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Tax Fraud/.idea/shelf/Uncommitted_changes_before_Update_at_5_3_2021_3_46_PM_[Default_Changelist]/Program.csprojAssemblyReference.cache" />
+  </binary>
+</changelist>
